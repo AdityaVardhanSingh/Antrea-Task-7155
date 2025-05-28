@@ -19,6 +19,7 @@ r.GET("/ping", func(c *gin.Context) {
 
 ## How to Run Locally
 
+<<<<<<< HEAD
 ## 1. Clone the repository
     git clone https://github.com/AdityaVardhanSingh/Antrea-Task-7155
     cd Antrea-Task-7155
@@ -27,6 +28,8 @@ r.GET("/ping", func(c *gin.Context) {
     go mod tidy
 
 ## 3. Run the app
+=======
+>>>>>>> origin/main
     go run main.go
 
     Then open your browser and go to: http://localhost:8080/ping
