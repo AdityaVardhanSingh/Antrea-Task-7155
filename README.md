@@ -37,9 +37,9 @@ r.GET("/ping", func(c *gin.Context) {
 
 Affected Module: [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
 
-Version Used: v1.6.3 (vulnerable)
+Version Used: `v1.6.3` (vulnerable)
 
-Fixed In: v1.7.7
+Fixed In: `v1.7.7`
 
 Purpose: Provides an HTTP router and middleware framework for building Go web servers
 
@@ -52,3 +52,7 @@ CVE: [CVE-2020-28483](https://www.cve.org/CVERecord?id=CVE-2020-28483)
 
 Description: Inconsistent interpretation of HTTP requests could lead to request smuggling or other unexpected behavior.
 
+Below is the result of running `govulncheck` on this project, showing the detected vulnerability:
+
+
+![Screenshot from 2025-05-28 14-45-22](https://github.com/user-attachments/assets/affda24f-a9ce-4dee-ad7e-e3e84882bf76)
