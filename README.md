@@ -14,7 +14,7 @@ The program creates a simple HTTP server that listens on port 8080 and responds 
 r.GET("/ping", func(c *gin.Context) {
 	c.JSON(200, gin.H{"message": "pong"})
 })
-
+```
 
 
 ## How to Run Locally
