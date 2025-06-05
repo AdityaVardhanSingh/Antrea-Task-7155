@@ -2,10 +2,11 @@ module github.com/AdityaVardhanSingh/Antrea-Task-7155
 
 go 1.24.2
 
+require github.com/gin-gonic/gin v1.6.3
+
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
-	github.com/gin-gonic/gin v1.6.3 // indirect
-	github.com/go-playground/locales v0.13.0 // indirect
+	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-playground/validator/v10 v10.2.0 // indirect
 	github.com/golang/protobuf v1.3.3 // indirect
